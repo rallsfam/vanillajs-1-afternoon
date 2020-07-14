@@ -4,8 +4,8 @@ const colorInput = document.getElementById('colorInput');
 function setCard() {
     const card = document.getElementById(idInput.value);
     card.style.color = colorInput.value;
-}
     console.log(card)
+}
 
 }
 
